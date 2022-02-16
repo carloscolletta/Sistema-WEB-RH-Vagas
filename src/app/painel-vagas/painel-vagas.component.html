@@ -1,0 +1,79 @@
+<form>
+    <div class="grid_colletta">        
+        <div class="box menu">
+            <span>Cadastro de Vagas</span>
+            <span></span>
+        </div>       
+    </div>
+
+    <div class="grid_paginas"> 
+        
+
+    <div class="dados_vagas">
+        <table>
+           <tr>
+                <td>   
+                   <label>Id:</label>
+                </td>
+                <td>   
+                    <input type="text" name="id" [(ngModel)] = "vaga.id" size="10" class="entrada" placeholder="somente numeros" ><br>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <label>Nome:</label>
+                </td>
+                <td>   
+                    <input type="text" name="nome" [(ngModel)] = "vaga.nome" size="60" class="entrada" placeholder="somente letras" ><br>
+                </td>  
+            </tr>
+            
+            <tr>
+                <td>
+                    <label>Foto:</label>
+                </td>
+                <td> 
+                    <input type="text" name="foto" [(ngModel)] = "vaga.foto" size="20" class="entrada" placeholder="digite o nome da foto"> <br>
+                </td>
+            </tr>
+
+            <tr>  
+                <td>
+                    <label>Descrição:</label>
+                </td>
+                <td>   
+                    <input type="text" name="descricao" [(ngModel)] = "vaga.descricao" size="60" class="entrada" placeholder="somente letras" ><br>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>Salário:</label>
+                </td>
+                <td>   
+                    <input type="text" name="salario" [(ngModel)] = "vaga.salario" size="20" class="entrada" placeholder="somente numeros" ><br>
+                </td>
+            </tr>
+         </table>
+    </div>
+</div>
+<div>
+  <p></p>  
+</div>
+
+<div class="grid_botao">
+
+        <div class="enviar_cad">
+            <button type="button" class="btn btn-info btn-sm text-light" (click)="cadastrar()"><b>Cadastrar Vaga</b></button>
+        </div>
+
+        <div class="enviar_cad_2">
+            <button type="button" class="btn btn-info btn-sm text-light" (click)="atualizar(vaga.id)"><b>Atualizar Vaga</b></button>
+        </div>
+
+        <div class="enviar_cad_3">
+            <button type="submit" class="btn btn-info btn-sm text-light" (click)="excluir(vaga.id)"><b>Excluir Vaga</b></button>
+        </div>
+</div> 
+</form>

@@ -1,0 +1,10 @@
+.rodape{
+    text-align: center;
+    font-family: arial;
+    font-size: clamp(  0.7vw, 1vw, 1.5vw);
+    padding-top: 1%;
+    border-top: 1px solid #17a4ba; 
+    margin-top: 5%; 
+    color: #17a2b8;
+  }
+  

@@ -1,0 +1,25 @@
+{
+  "vagas": [
+    {
+      "id": 1,
+      "nome": "Desenvolvedor Front-End Pleno",
+      "foto": "foto_01.jpg",
+      "descricao": "Trabalhar com Angular",
+      "salario": 7000
+    },
+    {
+      "id": 2,
+      "nome": "Desenvolvedor Back-End Pleno",
+      "foto": "foto_02.jpg",
+      "descricao": "Trabalhar com Angular",
+      "salario": 10000
+    },
+    {
+      "id": 3,
+      "nome": "Desenvolvedor Fullstack Senior",
+      "foto": "foto_03.jpg",
+      "descricao": "Trabalhar com Angular e Spring",
+      "salario": 15000
+    }
+  ]
+}
